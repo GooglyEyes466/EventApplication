@@ -120,7 +120,6 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/buttonstyle4tr"
                 android:backgroundTint="#e5eb34"
-                android:onClick="onUpdate"
                 android:text="UPDATE"
                 android:textColor="#000" />
 
