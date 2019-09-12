@@ -19,14 +19,14 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileUserTR extends AppCompatActivity {
     TextView txtName, txtUsername, txtEmail, txtCity, txtPhone;
     Button btnEdit, btnDelete;
-    AppUsers users = (AppUsers)getIntent().getSerializableExtra("usersData");
-    String usersId = getIntent().getStringExtra("userId");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_user_tr);
 
-
+        AppUsers users = (AppUsers)getIntent().getSerializableExtra("usersData");
+        String usersId = getIntent().getStringExtra("userId");
 
         txtName = findViewById(R.id.pname);
         txtUsername = findViewById(R.id.pusername);
@@ -64,6 +64,8 @@ public class ProfileUserTR extends AppCompatActivity {
 
     public void editUser(View view)
     {
+        AppUsers users = (AppUsers)getIntent().getSerializableExtra("usersData");
+        String usersId = getIntent().getStringExtra("userId");
         Intent intent = new Intent(this, EditProfileTR.class);
         intent.putExtra("usersData",users);
         intent.putExtra("userId",usersId);
@@ -71,6 +73,8 @@ public class ProfileUserTR extends AppCompatActivity {
     }
 
     public void deleteUser(View view){
+        AppUsers users = (AppUsers)getIntent().getSerializableExtra("usersData");
+        String usersId = getIntent().getStringExtra("userId");
         Intent intent = new Intent(this , DeleteUserTR.class);
         intent.putExtra("usersData",users);
         intent.putExtra("userId",usersId);
