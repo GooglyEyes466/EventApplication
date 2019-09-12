@@ -81,7 +81,7 @@ public class User_TR extends AppCompatActivity {
                         users.setCity(editCity.getText().toString().trim());
                         users.setPhone(Integer.parseInt(editPhone.getText().toString().trim()));
                         users.setPassword(editPass.getText().toString().trim());
-                        users.setConPass(editConPass.getText().toString().trim());
+
 
 
                         String password = editPass.getText().toString();

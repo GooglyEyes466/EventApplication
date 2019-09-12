@@ -25,6 +25,11 @@
     <string name="e22">Events</string>
     <string name="e23">My Events</string>
     <string name="e24">Logout</string>
+    <string name="e25">Name</string>
+    <string name="e26">dd-mm-yyyy</string>
+    <string name="e27">00:00</string>
+    <string name="e28">0</string>
+    <string name="e29">0.0</string>
     <string name="Signuptr">"Create Account"</string>
     <string name="Signintr">"Sign In"</string>
     <string name="Eventtr">"EVENT X"</string>

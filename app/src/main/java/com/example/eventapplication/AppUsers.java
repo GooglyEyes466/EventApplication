@@ -9,7 +9,7 @@ public class AppUsers implements Serializable {
     private Integer phone;
     private String city;
     private String password;
-    private String conPass;
+
 
     public AppUsers() {
     }
@@ -62,11 +62,5 @@ public class AppUsers implements Serializable {
         this.password = password;
     }
 
-    public String getConPass() {
-        return conPass;
-    }
 
-    public void setConPass(String conPass) {
-        this.conPass = conPass;
-    }
 }
