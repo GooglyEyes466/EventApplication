@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitishtr"
+    android:orientation="vertical"
+    tools:context=".ProfileUserTR">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:background="@color/colorPrimaryDarktr"
+        android:orientation="vertical"
+        android:padding="45dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PROFILE"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="201dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/profpic" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/nametr"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/pusername"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginTop="20px"
+            android:gravity="center"
+            android:text="@string/usernametr"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pemail"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:drawablePadding="15dp"
+            android:text="@string/emailtr"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/pphone"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="15dp"
+            android:text="@string/phonetr" />
+
+        <TextView
+            android:id="@+id/pcity"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="15dp"
+            android:text="@string/citytr" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEdittr"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle4tr"
+            android:backgroundTint="#2196F3"
+            android:onClick="editUser"
+            android:text="EDIT PROFILE"
+            android:textColor="#FFF" />
+
+
+        <Button
+            android:id="@+id/btnDeltr"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyle4tr"
+            android:backgroundTint="#EE0E21"
+            android:onClick="deleteUser"
+            android:text="DELETE PROFILE"
+            android:textColor="#000" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

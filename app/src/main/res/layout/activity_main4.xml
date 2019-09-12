@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".Main4ActivityS">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="341dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttsty1"
+            android:onClick="onaddClick"
+            android:text="@string/e1" />
+
+        <Button
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttsty1"
+            android:onClick="onallClick"
+            android:text="@string/e23" />
+
+        <Button
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttsty3"
+            android:onClick="onFeedback"
+            android:text="Feedback" />
+
+        <Button
+            android:id="@+id/profiletrbtn"
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttsty2"
+            android:onClick="onProf"
+            android:text="My Profile" />
+
+        <Button
+            android:layout_width="337dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttsty2"
+            android:onClick="onlogClick"
+            android:text="@string/e24" />
+
+    </LinearLayout>
+</LinearLayout>

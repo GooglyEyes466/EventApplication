@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitishtr"
+    android:orientation="vertical"
+    tools:context=".User_TR">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="45dp"
+        android:background="@color/colorPrimaryDarktr"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/creation_tr"
+            android:textColor="#FFF"
+            android:textSize="27sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/triangle" />
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:hint="@string/nametr"
+            android:inputType="text"
+            android:maxLines="1" />
+
+
+        <EditText
+            android:id="@+id/cusername"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/usernametr"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/cemail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/emailtr"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/ccity"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/citytr"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cphone"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/phonetr"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/cpassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/passwordtr"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/cconpassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:hint="@string/conpasstr"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncreate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttonstyle4tr"
+                android:backgroundTint="@color/colorAccenttr"
+                android:onClick="onCreation"
+                android:text="CREATE"
+                android:textColor="#000" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
